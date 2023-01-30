@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: url(./assets/read_news.jpg);
+  background-size: 86%;
+  background-repeat: no-repeat;
+
+  background-position-x: 300px;
+}
+
+.bg-form {
+  position: absolute;
+  width: 720px;
+  height: 100vh;
+  left: -1px;
+
+  background: #121214;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.title {
+  margin-left: 36px;
+  margin-top: 90px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #08c05e;
+}
+
+.subtitle {
+  margin-left: 36px;
+  margin-top: 9px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+p {
+  margin-left: 36px;
+  margin-top: 9px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+form {
+  margin-top: 50px;
+}
+
+form label {
+  margin-left: 36px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+
+  color: #a8a8a8;
+}
+
+form input {
+  width: 798px;
+  height: 48px;
+  margin-left: 41px;
+  padding-left: 12px;
+  margin-top: 16px;
+  border: none;
+  outline: none;
+
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
+.retangle {
+  position: absolute;
+  width: 5px;
+  height: 48px;
+  left: 36px;
+  top: 424px;
+
+  background: #04d361;
+}
+
+#send-button {
+  width: 24px;
+  height: 24px;
+}
+
+#button-bg {
+  background-color: #8257e5;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 791px;
+  top: 424px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#read-first {
+  margin-left: 36px;
+  margin-top: 50px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+
+  display: flex;
+  gap: 5px;
+
+  cursor: pointer;
+
+  color: #8257e5;
+}
